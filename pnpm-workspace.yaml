@@ -1,0 +1,9 @@
+onlyBuiltDependencies:
+  - '@nestjs/core'
+  - '@pkgr/core'
+  - '@prisma/client'
+  - '@prisma/engines'
+  - bcrypt
+  - eslint-config-prettier
+  - prisma
+  - synckit
