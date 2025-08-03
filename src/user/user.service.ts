@@ -35,6 +35,9 @@ export class UserService implements OnModuleInit {
   async findOne(id: number) {
     return this.prismaService.user.findUnique({
       where: { id },
+      select: {
+        password: false,
+      },
     });
   }
 
